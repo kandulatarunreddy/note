@@ -1,0 +1,155 @@
+/* Set background as image */
+body {
+  
+  background-image: url('images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100% 100%;
+  
+}
+/* Using descendent selector to modify the image width and height*/
+.aboutme img{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+/*set header text to center*/
+.header {
+    text-align: center;
+  }
+/*set color to header text*/
+header h1{
+  color:darkorange;
+}
+/*set Footer at bottom of the page*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+ }
+/*set h2 tag in the form to color aqua*/
+ form h2{
+  color: aqua;
+ }
+/*set anchor tag to different font styles and colors and borders*/
+ a {
+  color: rgb(6, 114, 38);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-style: italic;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 5px 15px;
+  border: 1px solid rgb(6, 114, 38);
+  border-radius: 10px;
+ }
+ 
+ nav a:hover, .active {
+  color: white;
+  background-color: slateblue;
+}
+/*adjust password input*/
+ input[type=password]{
+  width:25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  float:right;
+  margin-right:1000px;
+  color: red;
+  background-color: transparent;
+}
+/*adjust date input*/
+input[type=date]{
+  width:25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  float:right;
+  margin-right:1000px;
+  color:grey;
+  background-color: transparent;
+}
+/*adjust number input*/
+input[type=number]{
+  width: 25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  float:right;
+  margin-right:1000px;
+  color:gold;
+  background-color: transparent;
+}
+/*adjust input type for text, textarea*/
+input[type=text], textarea{
+  width: 25%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  float:right;
+  margin-right:1000px;
+  color:gold;
+  background-color: transparent;
+}
+/*adjust input type for submit*/
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+/*adding color when cursor is on submit*/
+input[type=submit]:hover {
+  background-color: #a05c45;
+}
+/*adding color to h3*/
+h3{
+  color: rgb(28, 244, 12);
+  font-size: 30px;
+}
+/*adding paragraph color to gold in footer*/
+.footer p {
+  color: gold;
+}
+/*adding paragraph color to white in form*/
+.form p{
+  color: white;
+}
+/*adding text color to white*/
+.text {
+  color: white;
+}
+/*adjusting label color to gold and display to inline-block*/
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: gold;
+  
+}
+/*adjusting display to flex and justifying content to center for navgation tag*/
+.nav{
+  display: flex;
+  justify-content: center;
+}
+/*adjusting the width for the nav tag*/
+nav{
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+}
+/*adding userDetails color to red*/
+#userDetails{
+  color:red;
+}
+/*adding noteDetails color to red*/
+#noteDetails{
+  color:red;
+}
+/*adding aallNotes color to red*/
+#allNotes{
+  color:red;
+  text-align: center;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration/Sign up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Adding Header to a webpage-->
+    <div class="header">
+        <header>
+            <h1>Welcome To Registration/Sign up Page</h1>
+            <br>
+            <!--Adding separate links to a webpage-->
+            <div class="nav">
+                <nav>
+                    <a href="welcome.html" target="_blank">Welcome</a>
+                    <a class="active" href="register.html">Registration</a>
+                    <a href="login.html" target="_blank">Login</a>
+                    <a href="note.html" target="_blank">Notes</a>
+                </nav>  
+            </div>  
+        </header>
+    </div>
+    <hr>
+    <!--Creating Registration form-->
+    <div class="form">
+        <p class ="error"></p>
+        <form id="registration">
+            <h2>Please fill in this form to create an account.</h2>
+            <br>
+            <label for="uname"><b>Username: </b></label>
+            <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+            <br>
+            <label for="psw"><b>Password: </b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" >
+            <br>
+            <p>By creating an account you agree to our <a href="termsandprivacy.html" style="color:dodgerblue" target="_blank">Terms & Privacy</a>.</p>
+            <input type="submit" value="Sign up">
+            <br>
+        </form>
+    </div>
+    <!--Adding Footer to a webpage-->
+    <div class="footer">
+        <footer>
+            <hr>
+            <p>Tarun Reddy Kandula &copy;</p>
+        </footer>
+    </div>
+    <script type="module" src="./main.js"></script>   
+</body>
+</html>

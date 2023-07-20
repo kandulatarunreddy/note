@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note</title>
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+    <!--Adding Header to a webpage-->
+    <div class="header">
+        <header>
+            <h1>Welcome To Note Taking Form</h1>
+            <br>
+            <!--Adding separate links to a webpage-->
+            <div class="nav">
+                <nav>
+                    <a href="welcome.html" target="_blank"><strong>Welcome</strong></a>
+                    <a href="register.html" target="_blank"><strong>Registration</strong></a>
+                    <a href="login.html" target="_blank"><strong>Login</strong></a>
+                </nav>  
+            </div>  
+        </header>
+    </div>
+    <hr>
+    <!--Creating Note taking form to a webpage-->
+    <div class="note">
+        <p class ="error"></p>
+        <form id="note_form">
+            <h2>Please Enter Subject to save your work.</h2>
+            <br>
+            <br>
+            <label for="subject"><b>Subject: </b></label>
+            <textarea id="noteId" name="subject" placeholder="Write something.." id="subject" style="height:100px"></textarea>
+            <br>
+            <br>
+            <label for="submit"></label>
+            <input type="submit" value="submit">
+            <br>
+        </form>
+        <br>
+        <br>
+        <ul id="allNotes"></ul>
+    </div>
+    <!--Adding Footer to a webpage-->
+    <div class="footer" style="margin-top: 180px;">
+        <footer>
+            <hr>
+            <p>Tarun Reddy Kandula &copy;</p>
+        </footer>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
+
+

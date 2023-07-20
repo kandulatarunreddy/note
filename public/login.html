@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Adding Header to a webpage-->
+    <div class="header">
+        <header>
+            <h1>Welcome To Login Page</h1>
+            <br>
+            <!--Adding separate links to a webpage-->
+            <div class="nav">
+                <nav>
+                    <a href="welcome.html" target="_blank"><strong>Welcome</strong></a>
+                    <a href="register.html" target="_blank"><strong>Registration</strong></a>
+                    <a href="note.html" target="_blank"><strong>Notes</strong></a>
+                </nav>
+            </div>  
+        </header>
+    </div>
+    <hr>
+    <!--Creating Login form-->
+    <div class="form">
+        <p class ="error"></p>
+        <form id="login">
+            <h2>Please fill in this form to LOGIN into your account.</h2>
+            <br>
+            <label for="uname"><b>Username: </b></label>
+            <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+            <br><br>
+            <label for="psw"><b>Password: </b></label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" >
+            <br><br>
+            <input type="submit" value="Login">
+            <br>
+        </form>
+        <ul id="userDetails"></ul>
+    </div>
+    <!--Adding Footer to a webpage-->
+    <div class="footer">
+        <footer>
+            <hr>
+            <p>Tarun Reddy Kandula &copy;</p>
+        </footer>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
